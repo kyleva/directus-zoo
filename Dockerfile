@@ -39,6 +39,10 @@ WORKDIR /directus
 EXPOSE 8055
 
 ENV \
+	ADMIN_EMAIL="kyleva@gmail.com" \
+	ADMIN_PASSWORD="dadspaghetti" \
+	CORS_ENABLED="true" \
+	CORS_ORIGIN="*" \
 	KEY="dockerzoo-lol" \
 	SECRET="cAMIbzjZYvCHL0E6dGK+qrjb/NdswHwxUdEoQ36OhQ=" \
 	DB_CLIENT="sqlite3" \
