@@ -39,6 +39,8 @@ WORKDIR /directus
 EXPOSE 8055
 
 ENV \
+	KEY="dockerzoo-lol" \
+	SECRET="cAMIbzjZYvCHL0E6dGK+qrjb/NdswHwxUdEoQ36OhQ=" \
 	DB_CLIENT="sqlite3" \
 	DB_FILENAME="/directus/database/database.sqlite" \
 	EXTENSIONS_PATH="/directus/extensions" \
